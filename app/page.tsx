@@ -172,7 +172,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="container mx-auto mt-20 max-md:mt-0 max-md:bg-shorten-m bg-cover bg-no-repeat max-md:bg-[30px_-30px]   lg:bg-shorten bg-DarkViolet py-10 max-md:py-7 rounded-lg text-center max-md:w-10/12 ">
+      <section className="container mx-auto mt-20 max-md:mt-0 max-md:bg-shorten-m bg-cover bg-no-repeat max-md:bg-[30px_-30px] bg-shorten bg-DarkViolet py-10 max-md:py-7 rounded-lg text-center max-md:w-10/12 ">
         {getinput ? (
           <input
             ref={ref}
