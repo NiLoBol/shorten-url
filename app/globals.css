@@ -13,3 +13,7 @@ body{
 .wordbr{
     word-wrap: 'break-word'
 }
+
+.bg-position{
+    background: 30px -30px  ;
+}

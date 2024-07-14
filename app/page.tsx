@@ -172,7 +172,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="container mx-auto mt-20 max-md:mt-0 bg-shorten bg-DarkViolet py-10 max-md:py-7 rounded-lg text-center max-md:w-10/12 ">
+      <section className="container mx-auto mt-20 max-md:mt-0 max-md:bg-shorten-m bg-cover bg-no-repeat max-md:bg-[30px_-30px]   lg:bg-shorten bg-DarkViolet py-10 max-md:py-7 rounded-lg text-center max-md:w-10/12 ">
         {getinput ? (
           <input
             ref={ref}
@@ -189,7 +189,11 @@ export default function Home() {
             placeholder="Shorten a link here..."
           />
         )}
-        {getinput?"":<div className="text-left ps-6 pb-5 text-Red"> please add a link</div>}
+        {getinput ? (
+          ""
+        ) : (
+          <div className="text-left ps-6 pb-5 text-Red"> please add a link</div>
+        )}
         <button
           onClick={() => {
             handleSubmit();
@@ -212,7 +216,9 @@ export default function Home() {
       })}
 
       <section className="container mx-auto mt-20 text-center ">
-        <h3 className="text-3xl font-bold max-md:text-2xl">Advanced Statistics</h3>
+        <h3 className="text-3xl font-bold max-md:text-2xl">
+          Advanced Statistics
+        </h3>
         <p className="mt-4 mx-6 text-lg text-GrayishViolet">
           Track how your links are performing across the web with our advanced
           statistics dashboard.

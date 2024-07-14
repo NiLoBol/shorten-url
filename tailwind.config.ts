@@ -14,7 +14,8 @@ const config: Config = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
         'boost': 'url("/images/bg-boost-desktop.svg")',
-        'shorten': 'url("/images/bg-shorten-desktop.svg")'
+        'shorten': 'url("/images/bg-shorten-desktop.svg")',
+        'shorten-m': 'url("/images/bg-shorten-mobile.svg")'
       },
       colors: {
         // Define your custom colors here
